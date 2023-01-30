@@ -23,9 +23,6 @@
 }
 
 
-main{
-    background-color: aqua;
-}
 
 .main-mid{
     margin: auto;
@@ -104,7 +101,128 @@ main{
 }
 
 .tab-container{
-    height: 400px;
+    height: 600px;
     border: 2px solid black;
 
+}
+
+.tab-top{
+    height: 50%;
+    border: 1px solid black;
+}
+
+.tab-bot{
+    height: 50%;
+    border: 1px solid red;
+}
+
+.info{
+padding: 70px 0px;    
+
+}
+
+.sponsor{
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 70px;
+    display: flex;
+   
+}
+
+.quadrato-left{
+    height:500px;
+    border: 1px solid black;
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-quadrato{
+    height: 250px;
+    border:1px solid black;
+    width: 50%;
+}
+
+.quadrato-mid{
+    height:500px;
+    border: 1px solid black;
+    width: calc(100%/3);
+    
+
+}
+
+.quadrato-right{
+    height:500px;
+    border: 1px solid black;
+    width: calc(100%/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sponsor2{
+    background-color: purple;
+    border: 1px solid black;
+    height: 200px;
+
+}
+
+.small-container{
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.questions{
+    height: 600px;
+    margin-top: 70px;
+    
+}
+
+.questions-tab{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid black;
+    height: 70px;
+    padding-bottom: 70px;
+    
+}
+
+.more-questions{
+    margin-top: 90px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    background-color: black;
+}
+
+.tab-footer{
+    margin: auto;
+    width: 70%;
+    border: 1px solid white;
+    height: 300px;
+    display: flex;
+    
+  
+    
+}
+
+.col-footer{
+    margin-top: 50px;
+    width: calc(100% / 5);
+    height: 50px;
+    border: 1px solid white;
+    flex-direction: column;
+    
+}
+
+.col-footer,.small-col{
+    
+    color: white;
 }
