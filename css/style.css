@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-bar{
+    background-color: brown;
+    height: 100px;
+}
+
+.main-top{
+    height: 400px;
+    background-color: blue;
+}
+
+.mini-container{
+    margin: auto;
+    width: 50%;
+    border: 5px solid black;
+    height: 400px;
+    background-color: yellow;
+}
+
+
+.main-mid{
+     height: 600px;
+    background-color: red;
+
+}
+
+.mid-container{
+    margin: auto;
+    width: 50%;
+    border: 5px solid black;
+    height: 600px;
+    background-color: purple;
+
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    
+}
