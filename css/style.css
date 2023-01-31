@@ -242,7 +242,7 @@
 .container-contatti {
     margin-top: 70px;
     height: 300px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin-bottom: 70px;
 }
 
@@ -304,33 +304,32 @@
 }
 
 .tab-container {
-    height: 1000px;
-    border: 2px solid black;
+    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
-
+    
 }
 
-.tab-top {
-    height: 50%;
-    border: 1px solid black;
-    width: calc(100% / 3);
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: calc(100%/3);
+    padding: 30px 0px;
+}
+
+.image{
+    height: 300px;
 }
 
 .blocco {
-
-    width: 100%;
-    border: 1px solid black;
-    height: 70%;
+    text-align: center;
 }
 
-.tab-bot {
-    height: 30%;
-}
-
-.info {
-    padding: 70px 0px;
-
+.aria{
+    padding: 150px 0px;
 }
 
 .sponsor {
