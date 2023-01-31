@@ -25,28 +25,24 @@
 }
 
 .style-img{
-    height: 50px;
+    height: 30px;
     margin-left: 20px;
 
 }
 
 .small-text{
     color: grey;
-    font-size: 25px;
-    padding: 30px;
+    font-size: 15px;
+    padding: 20px;
 }
 
 
 .space-mid{
     width: 20%;
-    
-   
-
 }
 
 .space-right{
     width: 40%;
-    
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -55,8 +51,8 @@
 
 .small-blu{
     color: white;
-    font-size: 30px;
-    height: 50px;
+    font-size: 20px;
+    height: 30px;
     width: 120px;
     background-color: rgb(0, 93, 255);
     margin-right: 20px;
@@ -83,44 +79,42 @@
 
 .jumbotron{
     width: 100%;
-    width: 50%;
 }
 
 .jumbo-img{
-    
-    width: 50%;
+   width: 50%;
 }
 
 .big-img{
-    height: 800px;
-    margin-top: 80px;
+    height: 400px;
+    margin-top: 40px;
 }
 
 .big-text{
-    font-size: 150px;
+    font-size: 80px;
 }
 
 .big-blu{
     background-color: rgb(0, 97, 255);
-    height: 60px;
+    height: 40px;
     width: 300px;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 
 .medio-text{
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 40px;
     
 }
 
 
 .fa-arrow-down{
-    font-size: 70px;
-    padding: 100px 30px;
+    font-size: 50px;
+    padding: 40px 30px;
 }
 
 .main-mid {
@@ -131,22 +125,21 @@
 
 
 .text-mid {
-    height: 300px;
+    
     display: flex;
     align-items: center;
-    font-size: 90px;
+    font-size: 50px;
+    margin-top: 80px;
 }
 
 .ceck-box{
-    font-size: 40px;
-    height: 200px;
-    display: flex;
-    align-items: center;
+    font-size: 25px;
+    padding: 50px 0px;
 }
 
 .fa-circle{
     color:  rgb(0, 97, 255);
-    padding: 0px 30px;
+    
 }
 
 
@@ -168,22 +161,21 @@
 .singol {
     display: flex;
     align-items: center;
-    height: 100px;
     border: 1px solid grey;
     justify-content: center;  
-    padding-left: 20px;
+    padding-left: 10px;
 
 }
 
 
 .user{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .fa-user,.fa-users,.fa-hotel,.fa-folder,.fa-share-nodes,.fa-check{
-    margin-right: 20px;
-    font-size: 40px;
-    padding-top: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .fa-check{
@@ -192,28 +184,27 @@
 
 
 .money{
-    padding: 20px 0px;
-    font-size: 30px;
+    padding: 15px 0px;
+    font-size: 15px;
 }
 
 .month{
-    font-size: 27px;
+    font-size: 20px;
     color: grey;
     
 }
 
 .pad{
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 .big-blu-tb{
     background-color: rgb(0, 97, 255);
-    height: 100px;
-    width: 500px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
     margin-top: 20px;
+    border: none;
 }
 
 .big{
