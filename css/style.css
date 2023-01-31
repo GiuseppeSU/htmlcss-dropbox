@@ -157,15 +157,10 @@
 
 
 .mid-container {
-
-
-    
     display: flex;
     width: 100%;
     display: flex;
     justify-content: space-around;
-    
-
 }
 
 .col {
@@ -249,20 +244,38 @@
     height: 300px;
     border: 2px solid black;
     margin-bottom: 70px;
+    margin-left: 2;
+   
 
 
 }
 
 .linea-container {
-    height: 50px;
-    border: 2px solid black;
+    height: 80px;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
 
 .first-line {
-    height: 150px;
-    border: 2px solid black;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
 
 }
+
+.mini-user{
+    font-size: 25px;
+}
+
+.destra{
+    padding-right: 20px;
+}
+
 
 .container-img {
     border: 2px solid black;
