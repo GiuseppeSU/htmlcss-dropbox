@@ -9,17 +9,16 @@
 .top-bar {
     width: 100%;
     display: flex;
+    background-color: white;
     position: fixed;
     top: 0;
-    left: 0;
-    
-    background-color: white;
+    height: 100px;
+   
     
 }
 
 .space-left{
     width: 40%;
-    height: 100px;
     display: flex;
     align-items: center;
     
@@ -40,14 +39,14 @@
 
 .space-mid{
     width: 20%;
-    height: 100px;
+    
    
 
 }
 
 .space-right{
     width: 40%;
-    height: 100px;
+    
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -64,35 +63,41 @@
 }
 
 .main-top {
-    padding-top: 20px;
     background-color: rgb(180, 208, 231);
-    height: 900px;
+    
+}
+
+.jumbo-text{
+    width: 50%;
+    margin: auto;
+    padding-top: 100px;
+    
+}
+.jumbo-container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.jumbotron{
+    width: 100%;
+    width: 50%;
+}
+
+.jumbo-img{
+    
+    width: 50%;
+}
+
+.big-img{
+    height: 800px;
+    margin-top: 80px;
 }
 
 .big-text{
-    font-size: 120px;
-    width: 70%;
-}
-
-
-.jumbo-container {
-    padding-top: 60px;
-   margin: auto;
-    width: 55%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.jumbo-text {
-    width: 40%;
-    margin-top: 30px;
-}
-
-
-.button-big{
-    height: 60px;
-    padding: 30px 0px;
-
+    font-size: 150px;
 }
 
 .big-blu{
@@ -108,31 +113,18 @@
 
 .medio-text{
     font-size: 40px;
-    display: block;
-    padding-top: 20px;
+    margin-top: 40px;
+    
 }
 
 
 .fa-arrow-down{
     font-size: 70px;
-    padding: 50px 30px;
+    padding: 100px 30px;
 }
-
-.jumbo-img {
-    height: 300px;
-    width: 60%;
-    margin-top: 30px;
-}
-
-.big-img{
-    height: 700px;
-}
-
-
-
 
 .main-mid {
-    padding-top: 80px;
+    
     margin: auto;
     width: 50%;
 }
@@ -225,7 +217,7 @@
 }
 
 .big{
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 
@@ -268,6 +260,10 @@
 
 .mini-user{
     font-size: 25px;
+}
+
+.sinstra{
+
 }
 
 .destra{
