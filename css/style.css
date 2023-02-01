@@ -20,9 +20,15 @@ html{
 }
 
 .space-left {
-    width: 40%;
+     padding: 0px 20px;    
+     width: 40%;
     display: flex;
     align-items: center;
+}
+
+.help{
+    padding-left: 15px;
+    
 }
 
 .style-img {
@@ -45,13 +51,12 @@ html{
 
 .small-blu {
     color: white;
-    font-size: 20px;
-    height: 30px;
-    width: 120px;
+    font-size: 15px;
     background-color: rgb(0, 93, 255);
-    margin-right: 20px;
+    padding: 10px;
     border: none;
     font-weight: none;
+    margin:0px 15px;
 }
 
 .main-top {
