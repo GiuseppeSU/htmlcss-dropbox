@@ -26,15 +26,10 @@ html{
 }
 
 .style-img {
-    height: 30px;
+    height: 20px;
     margin-left: 20px;
 }
 
-.small-text {
-    color: grey;
-    font-size: 15px;
-    padding: 20px;
-}
 
 
 .space-mid {
@@ -55,39 +50,44 @@ html{
     width: 120px;
     background-color: rgb(0, 93, 255);
     margin-right: 20px;
+    border: none;
+    font-weight: none;
 }
 
 .main-top {
     background-color: rgb(180, 208, 231);
-    margin-top: 50px;
+    margin-top: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
 }
 
 .jumbo-top {
-    font-size: 60px;
-    width: 63%;
-    margin-left: 30px;
-    margin: auto;
+    font-size: 30px;
+    width: 42%;
+    margin-top: 30px;
 }
 
 .jumbo-container {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 70px;
 }
 
 .jumbo-left {
-    width: 400px;
-    padding: 20px;
-    margin-top: 70px;
+    width: 250px;
+    padding: 0px 10px;
 }
 
 .jumbo-left>p {
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .jumbo-right {
-    width: 800px;
-    position: relative;
-    top: 100px;
+    width: 30%;
 }
 
 .jumbo-right>img {
@@ -95,34 +95,32 @@ html{
 }
 
 .big-text {
-    font-size: 35px;
+    font-size: 25px;
 
+}
+.medio-text {
+    font-size: 15px;
+}
+
+.small-text{
+    font-size: 12px;
 }
 
 .big-blu {
+    margin: 15px 0px;
     background-color: rgb(0, 97, 255);
     color: white;
     font-size: 15px;
     padding: 15px;
-    margin-top: 50px;
     border: none;
-    margin-bottom: 30px;
-
 }
-
-.medio-text {
-    font-size: 30px;
-}
-
 
 .fa-arrow-down {
-    font-size: 40px;
-    margin-top: 20px;
-
+    font-size: 30px;
+    margin-top:20px
 }
 
 .main-mid {
-
     max-width: 1170px;
     margin: auto;
 }
@@ -132,12 +130,12 @@ html{
 
     display: flex;
     align-items: center;
-    font-size: 50px;
+    font-size: 25px;
     margin-top: 80px;
 }
 
 .ceck-box {
-    font-size: 25px;
+    font-size: 15px;
     padding: 50px 0px;
 }
 
@@ -153,14 +151,11 @@ html{
 
 .mid-container {
     display: flex;
-    width: 100%;
-    display: flex;
     justify-content: space-around;
 }
 
 .col {
-
-    width: calc(95%/3);
+    width: calc(100%/3);
     border: 1px solid black;
 
 
@@ -174,17 +169,15 @@ html{
     padding-left: 10px;
 }
 
-
-
 .user {
-    font-size: 20px;
+    font-size: 13px;
     
 }
 
 .fa-user, .fa-users, .fa-hotel, .fa-folder, .fa-share-nodes, .fa-check {
     margin-right: 10px;
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 13px;
+    padding-top: 5px;
 }
 
 .fa-check {
@@ -193,35 +186,36 @@ html{
 
 
 .money{
-    padding: 15px 0px;
-    font-size: 15px;
+    padding: 10px 0px;
+    font-size: 13px;
 }
 
 .month {
+    font-size: 12px;
     margin-right: 10px;
     color: grey;
 }
 
 .pad {
-    padding: 10px 40px;
+    padding: 5px 40px;
     text-indent: -15px;
 }
 
 .big-blu-tb {
     background-color: rgb(0, 97, 255);
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     border: none;
 }
 
 .big {
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .big>h1{
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 
@@ -236,9 +230,9 @@ html{
 }
 
 .container-contatti {
-    margin-top: 70px;
+    margin-top: 30px;
     border: 1px solid black;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
 }
 
 .linea-container {
@@ -246,22 +240,13 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .first-line {
     margin-left: 20px;
     display: flex;
     justify-content: space-between;
-
 }
-
-.mini-user {
-    font-size: 25px;
-}
-
-.sinstra {}
 
 .destra {
     padding-right: 20px;
@@ -283,19 +268,20 @@ html{
 }
 
 .container-text {
-    width: 50%;
+    width: 30%;
+   
 }
 
+
 .special {
-    font-size: 40px;
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .grey {
-    height: 60px;
-    width: 300px;
-    font-size: 25px;
+   font-size: 15px;
     padding: 10px;
-    margin-top: 70px;
+    margin-top: 30px;
 
 }
 
@@ -315,47 +301,46 @@ html{
 }
 
 .image {
-    width: 100%;
-}
-
-.blocco {
-    padding: 10px;
+    width: 50%;
 }
 
 .blocco>h1> span{
     padding: 15px;
 }
 
-.aria {
-    padding: 150px 0px;
+.margin{
+    padding-top: 40px;
 }
+
 
 .sponsor {
     margin-top: 70px;
     display: flex;
+    width: 100vw;
+    height: 400px;
 
 }
 
 .quadrato-left {
-    width: calc(100%/4);
+    width: calc(100%/3);
     display: flex;
     flex-wrap: wrap;
+    
 
 }
 
 .mini-quadrato {
-    height: 300px;
+    height: 200px;
     width: 50%;
 
 }
 
 .img-square {
-    height: 80px;
-
+    height: 50px;
 }
 
 .img-square-big {
-    height: 30px;
+    height: 20px;
 }
 
 .up {
@@ -389,9 +374,10 @@ html{
 }
 
 .quadrato-mid {
-    width: 50%;
+    width: calc(100%/3);
     background-color: rgb(245, 245, 245);
     overflow-y: scroll;
+    height: 400px;
 }
 
 .desi {
@@ -399,6 +385,7 @@ html{
 }
 
 .quadrato-right {
+    height: 400px;
     width: calc(100%/3);
     display: flex;
     flex-wrap: wrap;
@@ -411,37 +398,30 @@ html{
     align-items: center;
 }
 
-.small-container1 {
-    width: 40%;
-    
-
-}
-
 .small-container1>.special {
     color: rgb(94, 9, 52);
-    font-size: 60px;
+    font-size: 25px;
     padding: 30px;
+    width: 80%;
 }
 
 
 .small-container2 {
-    width: 20%;
-    margin-left: 80px;
-    display: flex;
-    align-items: flex-start;
+    width: 10%;
+   
 }
 
 .grey-big {
     background-color: rgb(255, 255, 255);
     font-size: 15px;
-    width: 150px;
-    height: 30px;
+    padding: 10px;
     border: none;
+    font-weight: none;
 }
 
 
 .questions {
-    height: 600px;
+    height: 400px;
     margin-top: 70px;
 
 }
@@ -450,7 +430,7 @@ html{
     width: 50%;
     margin: auto;
     border-bottom: 1px solid black;
-    height: 70px;
+    height: 50px;
     padding-bottom: 70px;
 
 }
@@ -465,12 +445,14 @@ html{
 
 footer {
     background-color: black;
+    
 }
 
 .tab-footer {
-     display: flex;
+    display: flex;
     width: 70%;
     margin: auto;
+   
 }
 
 .col-footer {
